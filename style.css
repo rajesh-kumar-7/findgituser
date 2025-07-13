@@ -1,0 +1,104 @@
+.bg {
+    background-color: rgb(63, 2, 133);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: blue;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sch {
+    height: 35px;
+    margin-top: 19px;
+}
+
+#logo {
+    height: 30px;
+
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+#logoname {
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+#username {
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: 1.5rem;
+    margin-left:10px;
+
+
+}
+
+#username::placeholder {
+    color: blue;
+    font-family: 'Fira Code', monospace;
+}
+
+#pic {
+    height: 50px;
+    border-radius: 3px;
+    position: relative;
+    right: 10px;
+    top:8px;
+
+
+
+}
+#url{
+    color:white;
+  text-decoration: none;
+  margin:0px;
+  position: relative;
+  top:3px;
+}
+.response{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.fol{
+    display:flex;
+    color:burlywood;
+}
+#following{
+    margin-right:2rem;
+}
+#name{
+    font-size:1.2rem;
+    display: inline-block;
+   
+ font-family: 'Fira Code', monospace;
+    color:rgb(255, 255, 255);
+}
+
+#bio{
+    color:rgb(228, 255, 75);
+ width:30ch;
+}
